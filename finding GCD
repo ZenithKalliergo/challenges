@@ -1,0 +1,6 @@
+def findingGCD(numOne, numTwo):
+  theGCD = numOne + numTwo
+  while numOne % theGCD != 0 or numTwo % theGCD != 0:
+    theGCD -= 1
+  
+  return theGCD
